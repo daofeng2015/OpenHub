@@ -80,7 +80,7 @@ public interface UserService {
     /**
      * List events performed by a user
      */
-    @NonNull @GET("users/{user}/events")
+    @NonNull @GET("orgs/{user}/events")
     Observable<Response<ArrayList<Event>>> getUserEvents(
             @Header("forceNetWork") boolean forceNetWork,
             @Path("user") String user,
