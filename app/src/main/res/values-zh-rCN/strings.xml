@@ -377,5 +377,6 @@
     <string name="delete_label_warning">确认要删除这个标签？</string>
     <string name="pull_request">合并请求</string>
     <string name="Language_size">语言 %s,大小 %s</string>
+    <string name="mPasswordFlag">记住密码</string>
 
 </resources>

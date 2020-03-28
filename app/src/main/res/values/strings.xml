@@ -478,5 +478,6 @@
     <string name="delete_label_warning">Confirm to delete this label?</string>
     <string name="pull_request">Pull_request</string>
     <string name="Language_size">Language %s, size %s</string>
+    <string name="mPasswordFlag">MPasswordFlag</string>
 
 </resources>
