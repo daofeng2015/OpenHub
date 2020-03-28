@@ -66,7 +66,7 @@
     <string name="stars">关注</string>
     <string name="joined_at">加入时间</string>
     <string name="users">用户</string>
-    <string name="activity">活动</string>
+    <string name="activity">动态</string>
     <string name="seconds_ago">秒前</string>
     <string name="minutes_ago">分钟前</string>
     <string name="hours_ago">小时前</string>
@@ -77,7 +77,7 @@
     <string name="unknown">未知</string>
     <string name="organizations">组织</string>
     <string name="no_user">没有用户</string>
-    <string name="no_activity">没有活动</string>
+    <string name="no_activity">没有动态</string>
     <string name="no_repository">没有项目库</string>
     <string name="no_file">没有文件</string>
     <string name="developing">开发中</string>
@@ -283,9 +283,9 @@
     <string name="delete_tag_at">删除标签 %s 在 %s</string>
     <string name="delete_branch_at">删除分支 %s 在 %s</string>
     <string name="published_release_at">发布项目 %s 在 %s</string>
-    <string name="opened_issue_at">开放问题 %d 在 %s</string>
+    <string name="opened_issue_at">提出问题 %d 在 %s</string>
     <string name="closed_issue_at">关闭问题 %d 在 %s</string>
-    <string name="reopened_issue_at">重新开放问题 %d 在 %s</string>
+    <string name="reopened_issue_at">重新提出问题 %d 在 %s</string>
     <string name="edited_issue_at">编辑问题 %d 在 %s</string>
     <string name="assigned_issue_at">分配问题 %d 在 %s</string>
     <string name="unassigned_issue_at">取消分配问题 %d 在 %s</string>
@@ -375,5 +375,7 @@
     <string name="issue_unassigned">取消问题分配</string>
     <string name="add_account">添加账户</string>
     <string name="delete_label_warning">确认要删除这个标签？</string>
+    <string name="pull_request">合并请求</string>
+    <string name="Language_size">语言 %s,大小 %s</string>
 
 </resources>

@@ -196,7 +196,7 @@ public class RepositoryActivity extends PagerActivity<RepositoryPresenter>
         desc.setText(repo.getDescription());
         String language = StringUtils.isBlank(repo.getLanguage()) ?
                 getString(R.string.unknown) : repo.getLanguage();
-        info.setText(String.format(Locale.getDefault(), "Language %s, size %s",
+        info.setText(String.format(Locale.getDefault(), getString(R.string.Language_size),
                 language, StringUtils.getSizeString(repo.getSize() * 1024)));
 
         if (pagerAdapter.getCount() == 0) {

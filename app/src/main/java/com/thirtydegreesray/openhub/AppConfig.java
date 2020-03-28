@@ -53,7 +53,7 @@ public class AppConfig {
 
     public final static String OPENHUB_HOME = AUTH_HOME + "/OpenHub";
 
-    public final static String REDIRECT_URL = "https://github.com/ThirtyDegreesRay/OpenHub/CallBack";
+    public final static String REDIRECT_URL = "https://github.com/ThirtyDegreesRay/OpenHub";
 
     public final static String BUGLY_APPID = BuildConfig.DEBUG ? BuildConfig.DEBUG_BUGLY_ID : BuildConfig.BUGLY_ID;
 

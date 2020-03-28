@@ -185,7 +185,7 @@ public class ActivitiesAdapter extends BaseAdapter<ActivitiesAdapter.ViewHolder,
                     actionStr = String.format(getString(R.string.made_repo_public), fullName);
                     break;
                 case PullRequestEvent:
-                    actionStr = action + " pull request " + model.getRepo().getFullName();
+                    actionStr = action + getString(R.string.pull_request) + model.getRepo().getFullName();
                     break;
                 case PullRequestReviewEvent:
                     String pullRequestReviewStr = getPullRequestReviewEventStr(action);
